@@ -1,0 +1,307 @@
+{
+  "overall_performance": {
+    "balanced_accuracy_mean": {
+      "HyperFast": 0.6854,
+      "CatBoost": 0.6312,
+      "KNN": 0.6222,
+      "LightGBM": 0.6154,
+      "XGBoost": 0.6125,
+      "LogReg": 0.6008
+    },
+    "balanced_accuracy_std": {
+      "HyperFast": 0.0458,
+      "CatBoost": 0.0743,
+      "KNN": 0.0411,
+      "LightGBM": 0.0794,
+      "XGBoost": 0.0914,
+      "LogReg": 0.0615
+    },
+    "balanced_accuracy_min": {
+      "HyperFast": 0.55,
+      "CatBoost": 0.4865,
+      "KNN": 0.5647,
+      "LightGBM": 0.5167,
+      "XGBoost": 0.5,
+      "LogReg": 0.54
+    },
+    "balanced_accuracy_max": {
+      "HyperFast": 0.7469,
+      "CatBoost": 0.7248,
+      "KNN": 0.6601,
+      "LightGBM": 0.727,
+      "XGBoost": 0.7491,
+      "LogReg": 0.6693
+    },
+    "balanced_accuracy_count": {
+      "HyperFast": 20,
+      "CatBoost": 20,
+      "KNN": 20,
+      "LightGBM": 20,
+      "XGBoost": 20,
+      "LogReg": 20
+    },
+    "accuracy_mean": {
+      "HyperFast": 0.7724,
+      "CatBoost": 0.7514,
+      "KNN": 0.7251,
+      "LightGBM": 0.7575,
+      "XGBoost": 0.7484,
+      "LogReg": 0.7481
+    },
+    "accuracy_std": {
+      "HyperFast": 0.0534,
+      "CatBoost": 0.0595,
+      "KNN": 0.0598,
+      "LightGBM": 0.0482,
+      "XGBoost": 0.0588,
+      "LogReg": 0.0504
+    },
+    "f1_score_mean": {
+      "HyperFast": 0.7665,
+      "CatBoost": 0.7331,
+      "KNN": 0.7173,
+      "LightGBM": 0.7237,
+      "XGBoost": 0.7186,
+      "LogReg": 0.7137
+    },
+    "f1_score_std": {
+      "HyperFast": 0.0486,
+      "CatBoost": 0.0674,
+      "KNN": 0.0539,
+      "LightGBM": 0.0635,
+      "XGBoost": 0.0695,
+      "LogReg": 0.0573
+    }
+  },
+  "performance_by_budget": {
+    "CatBoost": {
+      "1": 0.6249,
+      "3": 0.6363,
+      "10": 0.629,
+      "30": 0.6247,
+      "60": 0.6409
+    },
+    "HyperFast": {
+      "1": 0.6942,
+      "3": 0.6802,
+      "10": 0.6967,
+      "30": 0.6934,
+      "60": 0.6627
+    },
+    "KNN": {
+      "1": 0.6222,
+      "3": 0.6222,
+      "10": 0.6222,
+      "30": 0.6222,
+      "60": 0.6222
+    },
+    "LightGBM": {
+      "1": 0.5916,
+      "3": 0.6479,
+      "10": 0.6126,
+      "30": 0.6126,
+      "60": 0.6126
+    },
+    "LogReg": {
+      "1": 0.6008,
+      "3": 0.6008,
+      "10": 0.6008,
+      "30": 0.6008,
+      "60": 0.6008
+    },
+    "XGBoost": {
+      "1": 0.6242,
+      "3": 0.6237,
+      "10": 0.6048,
+      "30": 0.6048,
+      "60": 0.6048
+    }
+  },
+  "average_ranks": {
+    "overall": {
+      "mean": {
+        "HyperFast": 1.25,
+        "XGBoost": 3.7,
+        "CatBoost": 3.8,
+        "KNN": 3.95,
+        "LogReg": 4.0,
+        "LightGBM": 4.3
+      },
+      "std": {
+        "HyperFast": 0.55,
+        "XGBoost": 1.69,
+        "CatBoost": 1.28,
+        "KNN": 1.76,
+        "LogReg": 1.41,
+        "LightGBM": 1.38
+      },
+      "min": {
+        "HyperFast": 1,
+        "XGBoost": 1,
+        "CatBoost": 1,
+        "KNN": 2,
+        "LogReg": 2,
+        "LightGBM": 2
+      },
+      "max": {
+        "HyperFast": 3,
+        "XGBoost": 6,
+        "CatBoost": 6,
+        "KNN": 6,
+        "LogReg": 6,
+        "LightGBM": 6
+      }
+    },
+    "by_budget": {
+      "CatBoost": {
+        "1": 3.75,
+        "3": 4.0,
+        "10": 4.0,
+        "30": 4.0,
+        "60": 3.25
+      },
+      "HyperFast": {
+        "1": 1.0,
+        "3": 1.0,
+        "10": 1.25,
+        "30": 1.25,
+        "60": 1.75
+      },
+      "KNN": {
+        "1": 3.75,
+        "3": 4.5,
+        "10": 4.0,
+        "30": 3.75,
+        "60": 3.75
+      },
+      "LightGBM": {
+        "1": 5.0,
+        "3": 3.0,
+        "10": 4.5,
+        "30": 4.5,
+        "60": 4.5
+      },
+      "LogReg": {
+        "1": 4.25,
+        "3": 4.25,
+        "10": 3.75,
+        "30": 3.75,
+        "60": 4.0
+      },
+      "XGBoost": {
+        "1": 3.25,
+        "3": 4.25,
+        "10": 3.5,
+        "30": 3.75,
+        "60": 3.75
+      }
+    }
+  },
+  "runtime_statistics": {
+    "total_time_mean": {
+      "KNN": 0.052,
+      "CatBoost": 0.443,
+      "LogReg": 1.441,
+      "XGBoost": 2.821,
+      "HyperFast": 14.106,
+      "LightGBM": 345.087
+    },
+    "total_time_median": {
+      "KNN": 0.019,
+      "CatBoost": 0.189,
+      "LogReg": 0.313,
+      "XGBoost": 0.721,
+      "HyperFast": 5.396,
+      "LightGBM": 509.085
+    },
+    "total_time_std": {
+      "KNN": 0.161,
+      "CatBoost": 0.442,
+      "LogReg": 2.787,
+      "XGBoost": 4.213,
+      "HyperFast": 20.094,
+      "LightGBM": 293.063
+    },
+    "total_time_min": {
+      "KNN": 0.003,
+      "CatBoost": 0.08,
+      "LogReg": 0.183,
+      "XGBoost": 0.009,
+      "HyperFast": 0.69,
+      "LightGBM": 0.009
+    },
+    "total_time_max": {
+      "KNN": 0.738,
+      "CatBoost": 1.413,
+      "LogReg": 9.373,
+      "XGBoost": 14.957,
+      "HyperFast": 67.712,
+      "LightGBM": 652.72
+    },
+    "fit_time_mean": {
+      "KNN": 0.001,
+      "CatBoost": 0.442,
+      "LogReg": 1.441,
+      "XGBoost": 2.819,
+      "HyperFast": 13.089,
+      "LightGBM": 345.085
+    },
+    "fit_time_median": {
+      "KNN": 0.001,
+      "CatBoost": 0.189,
+      "LogReg": 0.313,
+      "XGBoost": 0.718,
+      "HyperFast": 4.555,
+      "LightGBM": 509.083
+    },
+    "predict_time_mean": {
+      "KNN": 0.052,
+      "CatBoost": 0.001,
+      "LogReg": 0.0,
+      "XGBoost": 0.002,
+      "HyperFast": 1.017,
+      "LightGBM": 0.002
+    },
+    "predict_time_median": {
+      "KNN": 0.019,
+      "CatBoost": 0.001,
+      "LogReg": 0.0,
+      "XGBoost": 0.002,
+      "HyperFast": 0.856,
+      "LightGBM": 0.001
+    }
+  },
+  "budget_compliance": {
+    "exceeded_count": {
+      "CatBoost": 0,
+      "KNN": 0,
+      "HyperFast": 1,
+      "XGBoost": 1,
+      "LogReg": 2,
+      "LightGBM": 12
+    },
+    "total_runs": {
+      "CatBoost": 20,
+      "KNN": 20,
+      "HyperFast": 20,
+      "XGBoost": 20,
+      "LogReg": 20,
+      "LightGBM": 20
+    },
+    "exceeded_pct": {
+      "CatBoost": 0.0,
+      "KNN": 0.0,
+      "HyperFast": 5.0,
+      "XGBoost": 5.0,
+      "LogReg": 10.0,
+      "LightGBM": 60.0
+    }
+  },
+  "statistical_tests": {
+    "friedman": {
+      "statistic": 36.08166189111745,
+      "pvalue": 9.147471264513075e-07,
+      "significant": true
+    }
+  }
+}

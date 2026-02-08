@@ -1,0 +1,93 @@
+{
+  "experiment_name": "quickstart_demo",
+  "description": "Quick start demonstration",
+  "dataset": {
+    "max_samples": 1000,
+    "max_features": 100,
+    "max_classes": 10,
+    "test_size": 0.2,
+    "random_state": 42,
+    "datasets": [
+      {
+        "name": "blood-transfusion-service-center",
+        "openml_id": 1464
+      },
+      {
+        "name": "ilpd",
+        "openml_id": 1480
+      },
+      {
+        "name": "diabetes",
+        "openml_id": 37
+      },
+      {
+        "name": "kc2",
+        "openml_id": 1063
+      }
+    ]
+  },
+  "benchmark": {
+    "budgets": [
+      1,
+      3,
+      10,
+      30,
+      60
+    ],
+    "models": [
+      "KNN",
+      "LogReg",
+      "XGBoost",
+      "LightGBM",
+      "CatBoost"
+    ],
+    "include_hyperfast": true,
+    "max_memory_gb": 32,
+    "timeout_multiplier": 1.1,
+    "random_state": 42,
+    "batch_size": 2048,
+    "n_jobs": -1
+  },
+  "hyperfast": {
+    "ensemble_by_budget": {
+      "1": {
+        "n_ensemble": 1,
+        "optimization": null,
+        "optimize_steps": 0
+      },
+      "3": {
+        "n_ensemble": 4,
+        "optimization": null,
+        "optimize_steps": 0
+      },
+      "10": {
+        "n_ensemble": 8,
+        "optimization": null,
+        "optimize_steps": 0
+      },
+      "30": {
+        "n_ensemble": 16,
+        "optimization": null,
+        "optimize_steps": 0
+      },
+      "60": {
+        "n_ensemble": 16,
+        "optimization": null,
+        "optimize_steps": 0
+      },
+      "300": {
+        "n_ensemble": 16,
+        "optimization": "ensemble_optimize",
+        "optimize_steps": 64
+      }
+    },
+    "batch_size": 2048,
+    "nn_bias": false,
+    "seed": 42
+  },
+  "paths": {
+    "data_dir": "data_mini",
+    "results_dir": "results_mini",
+    "figures_dir": "results_mini/figures"
+  }
+}

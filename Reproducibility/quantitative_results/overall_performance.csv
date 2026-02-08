@@ -1,0 +1,7 @@
+model,balanced_accuracy_mean,balanced_accuracy_std,balanced_accuracy_min,balanced_accuracy_max,balanced_accuracy_count,accuracy_mean,accuracy_std,f1_score_mean,f1_score_std
+HyperFast,0.6854,0.0458,0.55,0.7469,20,0.7724,0.0534,0.7665,0.0486
+CatBoost,0.6312,0.0743,0.4865,0.7248,20,0.7514,0.0595,0.7331,0.0674
+KNN,0.6222,0.0411,0.5647,0.6601,20,0.7251,0.0598,0.7173,0.0539
+LightGBM,0.6154,0.0794,0.5167,0.727,20,0.7575,0.0482,0.7237,0.0635
+XGBoost,0.6125,0.0914,0.5,0.7491,20,0.7484,0.0588,0.7186,0.0695
+LogReg,0.6008,0.0615,0.54,0.6693,20,0.7481,0.0504,0.7137,0.0573

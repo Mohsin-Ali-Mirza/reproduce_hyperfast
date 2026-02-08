@@ -1,0 +1,7 @@
+model,total_time_mean,total_time_median,total_time_std,total_time_min,total_time_max,fit_time_mean,fit_time_median,predict_time_mean,predict_time_median
+KNN,0.052,0.019,0.161,0.003,0.738,0.001,0.001,0.052,0.019
+CatBoost,0.443,0.189,0.442,0.08,1.413,0.442,0.189,0.001,0.001
+LogReg,1.441,0.313,2.787,0.183,9.373,1.441,0.313,0.0,0.0
+XGBoost,2.821,0.721,4.213,0.009,14.957,2.819,0.718,0.002,0.002
+HyperFast,14.106,5.396,20.094,0.69,67.712,13.089,4.555,1.017,0.856
+LightGBM,345.087,509.085,293.063,0.009,652.72,345.085,509.083,0.002,0.001

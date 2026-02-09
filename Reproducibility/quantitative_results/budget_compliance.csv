@@ -1,7 +1,7 @@
 model,exceeded_count,total_runs,exceeded_pct
 CatBoost,0,20,0.0
 KNN,0,20,0.0
-HyperFast,1,20,5.0
+LightGBM,0,20,0.0
 XGBoost,1,20,5.0
+HyperFast,2,20,10.0
 LogReg,2,20,10.0
-LightGBM,12,20,60.0
